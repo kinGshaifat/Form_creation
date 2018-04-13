@@ -1,0 +1,20 @@
+development:
+adapter: sqlite3
+database: library_devolopment
+username: root
+password: [password]
+host: localhost
+
+test:
+adapter: sqlite3
+database: library_test
+username: root
+password: [password]
+host: localhost
+
+production:
+adapter: sqlite3
+database: library_production
+username: root
+password: [password]
+host: localhost
